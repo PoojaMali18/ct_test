@@ -1,0 +1,71 @@
+.body{
+    padding:0px;
+    margin: 0px;
+}
+
+.one{
+    position: absolute;
+    background: url("https://media.cheggcdn.com/media/7c4/7c40d4dc-b556-41c7-b523-d66c07e829ee/phpaUYBu1");
+    width:100%;
+    height:100%;
+}
+
+
+.three{
+    position:absolute;
+    background: url("./images/lam-middle-image.png");
+    width:100%;
+    height:100%;
+    justify-content: flex-start;
+  
+}
+
+.sec1{  
+    margin-top: 15px;
+    display:flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.sec2{  
+    margin-top:80px;
+
+    width:50%;
+    text-align:center; 
+}
+.sec3{  
+    width:50%;
+    margin-left:300px;
+    text-align:center;
+    text-align: justify;
+}
+
+.link>a{
+    color:white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.link1>a{
+    color:rgb(13, 13, 38);
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 50px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two{
+height: 120vh;
+overflow-y: auto;
+background-color: #ffffff; 
+}
+
+
+.three{
+    margin-top:-90px;
+}
