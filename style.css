@@ -64,10 +64,14 @@ body {
 }
 
 .ee {
-    height: 100vh;
-    width: 100vw;
+    height: 118vh;
+    width: 82%;
+    
     overflow-y: auto;
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:end;
 }
 
 .three, .three1 {
@@ -78,8 +82,84 @@ body {
     background-size: cover;
 }
 
+.three4
+{
+    position: absolute;
+    background: url("./images/lam-tab-1.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.three5
+{
+    position: absolute;
+    background: url("./images/lam-tab-2.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
 .twoo{
    display:flex;
    justify-content: space-around;
    align-items: center;
+}
+
+.mountain-class{
+    background-color: #404f6c;
+    height:7vh;
+    display:flex;
+
+}
+
+
+.mountain{
+    width:43%;
+    color:white;
+    display: flex;
+  
+    justify-content:center ;
+    align-items: center;
+}
+
+#mountain1{
+    background-color:#9fa7b5;
+    color: #404f6c;   
+    height:7vh;
+    display: flex;
+    font-size:25px;
+    font-weight: 700;
+    width:10vw;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+#mountain2{
+    
+    background-color:#404f6c;
+    color: #9fa7b5;
+    display:flex;
+    height:7vh;
+    font-size:25px;
+    font-weight: 700;
+    width:10vw;
+    border: none;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.inactive {
+    display: none;
+}
+
+.active {
+    display: block;
+    background-color:#9fa7b5;
+    color: #404f6c;
 }
